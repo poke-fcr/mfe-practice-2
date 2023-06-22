@@ -1,1 +1,11 @@
 <p>shell-home works!</p>
+
+<input 
+type="text"
+#userId
+placeholder="Enter your user id"
+>
+<button (click)="submit(userId.value)">Save</button>
+
+<p>The entered text will be saved in shared library service.</p>
+<p>These are singleton services which will be initiated once and will be shared by all projects by default.</p>
